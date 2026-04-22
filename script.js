@@ -8,7 +8,7 @@ function showPage(pageId) {
     const selectedPage = document.getElementById('page-' + pageId);
     selectedPage.classList.add('active');
 
-    // Scroll to top
+    // Scrolll to top
     window.scrollTo(0, 0);
 }
 
