@@ -13,4 +13,4 @@ function showPage(pageId) {
 }
 
 // Log initial message
-console.log("Kanishka Beauty Boutique - Storefront Initialized.");
+console.log("Akash Beauty Boutique - Storefront Initialized.");
