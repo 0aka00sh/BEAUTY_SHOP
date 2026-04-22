@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanishka Beauty | High-End Cosmetics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">KANISHKA BEAUTY</div>
+        <div class="nav-right">
+            <button onclick="showPage('home')" class="nav-link">Home</button>
+            <button onclick="showPage('catalog')" class="nav-link">Catalog</button>
+        </div>
+    </nav>
+
+    <main id="page-home" class="page active">
+        <section class="hero">
+            <div class="hero-overlay">
+                <h1>Radiance for Every Skin</h1>
+                <p>Curated excellence from Greater Noida to your doorstep.</p>
+                <button class="btn-primary" onclick="showPage('catalog')">Shop the Collection</button>
+            </div>
+        </section>
+
+        <section class="owner-card">
+            <div class="card-content">
+                <span class="subtitle">MEET THE FOUNDER</span>
+                <h2>Kanishka Bhatia</h2>
+                <p>Greater Noida, India</p>
+                <p class="phone">Direct: +91 9719970127</p>
+            </div>
+        </section>
+    </main>
+
+    <main id="page-catalog" class="page">
+        <section class="catalog-header">
+            <h2>Our Beauty Range</h2>
+            <p>From affordable daily essentials to luxury professional treatments. <br> 
+            <strong>Every skin type. Every budget.</strong></p>
+        </section>
+
+        <div class="product-grid">
+            <div class="product">
+                <div class="price-tag luxury">Premium</div>
+                <img src="https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?auto=format&fit=crop&w=400&q=80" alt="Serum">
+                <h3>Midnight Repair Serum</h3>
+                <p>Luxury Care for Sensitive Skin</p>
+            </div>
+
+            <div class="product">
+                <div class="price-tag mid">Essential</div>
+                <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=400&q=80" alt="Cleanser">
+                <h3>Hydra-Glow Cleanser</h3>
+                <p>Daily Routine for All Skin Types</p>
+            </div>
+
+            <div class="product">
+                <div class="price-tag budget">Affordable</div>
+                <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=400&q=80" alt="Mask">
+                <h3>Clay Radiance Mask</h3>
+                <p>Budget-Friendly Deep Cleaning</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
